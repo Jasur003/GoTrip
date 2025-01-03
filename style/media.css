@@ -1,0 +1,559 @@
+@media(max-width:1300px) {
+    .intro{
+        height: 750px;
+    }
+    .intro_title {
+        font-size: 75px;
+        line-height: 94px;
+
+    }
+    .intro_text {
+        font-size: 37.5px;
+        line-height: 47px;
+        margin-top: 18px;
+        margin-bottom: 45px;
+    } 
+    .intro_link {
+        font-size: 17.5px;
+        line-height: 21px;
+        padding: 13px 72px;
+    }
+}
+@media(max-width:1140px) {
+    .nav_box{
+        padding: 30px 0;
+    }
+    .nav_list,
+    .foot_list {
+        gap: 25px;
+    }
+    .nav_logo img{
+        width: 80px;
+    }
+    .nav_link{
+        font-size: 15px;
+        line-height: 18px;
+        padding-bottom: 4px;
+    }
+    .nav_input{
+        padding: 6px 15px;
+    }
+    .nav_input::placeholder {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .nav_btn {
+        font-size: 13px;
+        line-height: 15.5px;
+        padding: 6px 10.5px;
+    }
+    .intro{
+        height: 700px;
+    }
+    .intro_title {
+        font-size: 70px;
+        line-height: 90px;
+
+    }
+    .intro_text {
+        font-size: 35px;
+        line-height: 45px;
+        margin-top: 16px;
+        margin-bottom: 40px;
+    } 
+    .intro_link {
+        font-size: 17px;
+        line-height: 20.5px;
+        padding: 12px 66px;
+    }
+    .main{
+        margin-top: 65px;
+        margin-bottom: 90px;
+    }
+    .about_title{
+        margin-bottom: 40px;
+        font-size: 35px;
+        line-height: 43.41px;
+    }
+    .about_box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .about_box img{
+        max-width: 545px;
+        width: 100%;
+    }
+    .about_text{
+        text-align: justify;
+        margin-bottom: 15px;
+        font-size: 17px;
+        line-height: 20.33px;
+    }
+    .catolog_box{
+        max-width: 550px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: center;
+    }
+    .catolog_title {
+        margin-top: 80px;
+        margin-bottom: 45px;
+        font-size: 35px;
+        line-height: 43.41px;
+    }
+    .card_img{
+        width: 250px;
+    }
+    .card_text {
+        font-size: 21px;
+        line-height: 26.05px;
+    }
+}
+@media(max-width:1000px) {
+    .nav_box{
+        padding: 28px 0;
+    }
+    .nav_list,
+    .foot_list {
+        gap: 20px;
+    }
+    .nav_logo img{
+        width: 75px;
+    }
+    .intro{
+        height: 650px;
+    }
+    .intro_title {
+        font-size: 65px;
+        line-height: 85px;
+
+    }
+    .intro_text {
+        font-size: 32.5px;
+        line-height: 42.5px;
+        margin-top: 14px;
+        margin-bottom: 38px;
+    } 
+    .intro_link {
+        font-size: 16.5px;
+        line-height: 20px;
+        padding: 11px 60px;
+    }
+    .card_img{
+        width: 240px;
+    }
+}
+@media(max-width:900px) {
+    .nav_box{
+        flex-direction: column;
+        gap: 10px;
+        padding: 25px 0;
+    }
+    .nav_logo img{
+        width: 70px;
+    }
+    .nav_link{
+        font-size: 14px;
+        line-height: 17px;
+        padding-bottom: 3px;
+    }
+    .nav_input{
+        padding: 4px 10px;
+    }
+    .nav_input::placeholder {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .nav_btn {
+        font-size: 12px;
+        line-height: 14.5px;
+        padding: 4px 7px;
+    }
+    .intro{
+        height: 600px;
+    }
+    .intro_title {
+        font-size: 60px;
+        line-height: 80px;
+    }
+    .intro_text {
+        font-size: 30px;
+        line-height: 40px;
+        margin-top: 13px;
+        margin-bottom: 35px;
+    } 
+    .intro_link {
+        font-size: 16px;
+        line-height: 19.5px;
+        padding: 10px 54px;
+    }
+    .main{
+        margin-top: 50px;
+        margin-bottom: 75px;
+    }
+    .about_title{
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 38.41px;
+    }
+    .about_text{
+        margin-bottom: 10px;
+        font-size: 16px;
+        line-height: 19.33px;
+    }
+    .catolog_title {
+        margin-top: 65px;
+        margin-bottom: 35px;
+        font-size: 30px;
+        line-height: 38.41px;
+    }
+    .card_text {
+        font-size: 18px;
+        line-height: 23.05px;
+    }
+    .card_img{
+        width: 230px;
+    }
+    .contact_title{
+        text-align: center;
+        margin-top: 80px;
+        margin-bottom: 40px;
+        font-size: 35px;
+        line-height: 43.41px;
+    }
+    .contact_box{
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+    .contact_text,
+    .contact_link {
+        font-size: 17.5px;
+        line-height: 21.2px;
+        text-align: center;
+    }  
+    .foot{
+        padding-top: 35px;
+        padding-bottom: 12.5px;
+        gap: 50px;
+    }
+    .foot_link {
+        font-size: 15px;
+        line-height: 17.96px;
+    }
+    
+    .foot_text {
+        font-size: 13px;
+        line-height: 15.59px;
+    }
+}
+@media(max-width:800px) {
+    .nav_box{
+        padding: 23px 0;
+        gap: 9px;
+    }
+    .nav_logo img{
+        width: 65px;
+    }
+    .intro{
+        height: 550px;
+    }
+    .intro_title {
+        font-size: 55px;
+        line-height: 75px;
+
+    }
+    .intro_text {
+        font-size: 27.5px;
+        line-height: 37.5px;
+        margin-top: 12px;
+        margin-bottom: 30px;
+    } 
+    .intro_link {
+        font-size: 15.5px;
+        line-height: 19px;
+        padding: 9px 48px;
+    }
+    .card_img{
+        width: 220px;
+    }
+    .foot{
+        padding-top: 30px;
+        padding-bottom: 10px;
+        gap: 40px;
+    }
+}
+@media(max-width:700px) {
+    .nav_box{
+        padding: 20px 0;
+        gap: 8px;
+    }
+    .nav_logo img{
+        width: 60px;
+    }
+    .nav_list,
+    .foot_list {
+        gap: 15px;
+    }
+    .nav_link{
+        font-size: 13px;
+        line-height: 15.5px;
+        padding-bottom: 2px;
+    }
+    .nav_input::placeholder {
+        font-size: 13px;
+        line-height: 16px;
+    }
+    .nav_btn {
+        font-size: 11px;
+        line-height: 13.5px;
+    }
+    .intro{
+        height: 500px;
+    }
+    .intro_title {
+        font-size: 50px;
+        line-height: 70px;
+
+    }
+    .intro_text {
+        font-size: 25px;
+        line-height: 35px;
+        margin-top: 11px;
+        margin-bottom: 28px;
+    } 
+    .intro_link {
+        font-size: 15px;
+        line-height: 18.5px;
+        padding: 8px 42px;
+    }
+    .main{
+        margin-top: 35px;
+        margin-bottom: 60px;
+    }
+    .about_title{
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 33.41px;
+    }
+    .about_text{
+        margin-bottom: 5px;
+        font-size: 15px;
+        line-height: 17.33px;
+    }
+    .catolog_title {
+        margin-top: 50px;
+        margin-bottom: 25px;
+        font-size: 25px;
+        line-height: 33.41px;
+    }
+    .card_text {
+        font-size: 15px;
+        line-height: 20.05px;
+    }
+    .card_img{
+        width: 210px;
+    }
+    .contact_title{
+        margin-top: 60px;
+        margin-bottom: 30px;
+        font-size: 30px;
+        line-height: 38.41px;
+    }
+    .contact_box{
+        gap: 15px;
+    }
+    .contact_text,
+    .contact_link {
+        font-size: 15px;
+        line-height: 18.7px;
+    }
+    .foot{
+        padding-top: 25px;
+        padding-bottom: 7.5px;
+        gap: 30px;
+    }
+    .foot_link {
+        font-size: 14px;
+        line-height: 16.96px;
+    }
+    
+    .foot_text {
+        font-size: 12px;
+        line-height: 14.59px;
+    }
+}
+@media(max-width:600px) {
+    .nav_box{
+        padding: 18px 0;
+        gap: 7px;
+    }
+    .nav_logo img{
+        width: 55px;
+    }
+    .intro{
+        height: 400px;
+    }
+    .intro_title {
+        font-size: 40px;
+        line-height: 60px;
+
+    }
+    .intro_text {
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 9px;
+        margin-bottom: 20px;
+    } 
+    .intro_link {
+        font-size: 14px;
+        line-height: 17.5px;
+        padding: 6px 30px;
+    }
+    .card_img{
+        width: 200px;
+    }
+    .foot{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        gap: 20px;
+    }
+}
+@media(max-width:500px) {
+    .nav_box{
+        padding: 15px 0;
+        gap: 6px;
+    }
+    .nav_logo img{
+        width: 50px;
+    }
+    .nav_list,
+    .foot_list {
+        gap: 10px;
+    }
+    .nav_link{
+        font-size: 12px;
+        line-height: 14.5px;
+        padding-bottom: 1px;
+    }
+    .nav_input::placeholder {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .nav_btn {
+        font-size: 10px;
+        line-height: 12.5px;
+    }
+    .intro{
+        height: 350px;
+    }
+    .intro_title {
+        font-size: 35px;
+        line-height: 55px;
+
+    }
+    .intro_text {
+        font-size: 17.5px;
+        line-height: 27.5px;
+        margin-top: 8px;
+        margin-bottom: 18px;
+    } 
+    .intro_link {
+        font-size: 13.5px;
+        line-height: 17px;
+        padding: 5px 24px;
+    }
+    .main{
+        margin-top: 20px;
+        margin-bottom: 45px;
+    }
+    .about_title{
+        margin-bottom: 10px;
+        font-size: 20px;
+        line-height: 28.41px;
+    }
+    .about_text{
+        margin-bottom: 20px;
+        font-size: 14px;
+        line-height: 16.33px;
+    }
+    .catolog_box{
+        flex-wrap: nowrap;
+        justify-content: start;
+        overflow-x: scroll;
+    }
+    .catolog_title {
+        margin-top: 35px;
+        margin-bottom: 15px;
+        font-size: 20px;
+        line-height: 28.41px;
+    }
+    .card_text {
+        font-size: 12px;
+        line-height: 17.05px;
+    }
+    .card_img{
+        width: 190px;
+    }
+    .contact_title{
+        margin-top: 40px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 33.41px;
+    }
+    .contact_box{
+        gap: 10px;
+    }
+    .contact_text,
+    .contact_link {
+        font-size: 12.5px;
+        line-height: 16.2px;
+    }
+    .foot{
+        padding-top: 15px;
+        gap: 10px;
+    }
+    .foot_link {
+        font-size: 13px;
+        line-height: 15.96px;
+    }
+    .foot_text {
+        font-size: 11px;
+        line-height: 13.59px;
+    }
+}
+@media(max-width:400px) {
+    .nav_box{
+        padding: 10px 0;
+        gap: 5px;
+    }
+    .nav_logo img{
+        width: 45px;
+    }
+    .intro{
+        height: 300px;
+    }
+    .intro_title {
+        font-size: 30px;
+        line-height: 50px;
+
+    }
+    .intro_text {
+        font-size: 15px;
+        line-height: 25px;
+        margin-top: 7px;
+        margin-bottom: 15px;
+    } 
+    .intro_link {
+        font-size: 13px;
+        line-height: 16.5px;
+        padding: 4px 18px;
+    }
+    .card_img{
+        width: 180px;
+    }
+    .foot{
+        padding-top: 10px;
+        gap: 5px;
+    }
+}

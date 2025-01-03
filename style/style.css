@@ -182,12 +182,6 @@
 .catalog_card:hover .card_text {
     color: #B4436C;
 }
-
-.contact_box {
-    display: flex;
-    justify-content: space-between;
-}
-
 .contact_title {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -195,27 +189,24 @@
     font-size: 40px;
     font-weight: 600;
     line-height: 48.41px;
-    text-align: left;
     color: #3E8989;
+    text-align: start;
 }
-
+.contact_box {
+    display: flex;
+    justify-content: space-between;
+}
 .contact_text {
     font-size: 20px;
     font-weight: 400;
     line-height: 23.7px;
-    text-align: left;
     color: #000000;
     max-width: 555px;
     width: 100%;
 }
-
-.contact_right {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 198px;
+.contact_list {
+    list-style: none;
 }
-
 .contact_link {
     text-decoration: none;
     font-size: 20px;
@@ -231,7 +222,7 @@
     background-color: #3E8989;
     padding-top: 40px;
     padding-bottom: 15px;
-    gap: 59px;
+    gap: 60px;
 }
 
 .foot_list {
